@@ -1,0 +1,44 @@
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<style>
+    body {
+        background: #191919;
+        margin: 50 150;
+    }
+    div {
+        position: relative;
+        border-radius: 50%;
+        width: 100;
+        height: 100;
+    }
+    div:nth-child(1) {
+        background: conic-gradient(#4f77ff 180deg, #191919 180deg);
+        clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+    }
+    div:nth-child(2) {
+        background: conic-gradient(#191919 180deg, #4f77ff 180deg);
+        z-index: -2;
+    }
+    div:nth-child(3) {
+        top: -150;
+        left: -50;
+        background: conic-gradient(
+            #f9e492 90deg,
+            #191919 90deg 270deg,
+            #f9e492 270deg
+        );
+        z-index: -3;
+    }
+    div:nth-child(4) {
+        left: 50;
+        top: -250;
+        background: conic-gradient(
+            #191919 90deg,
+            #f9e492 90deg 270deg,
+            #191919 270deg
+        );
+        z-index: -1;
+    }
+</style>

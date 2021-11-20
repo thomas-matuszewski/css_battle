@@ -1,0 +1,80 @@
+<div><p></p></div>
+<div></div>
+<div></div>
+<style>
+    body {
+        background: #191919;
+        margin: 75 135;
+    }
+    div {
+        position: relative;
+        background: #fe5f55;
+    }
+    div:nth-child(1) {
+        width: 130;
+        height: 140;
+        border-radius: 60px 60px 0 0;
+    }
+    div:nth-child(2),
+    div:nth-child(3) {
+        width: 10;
+        height: 20;
+        background: #000;
+        border-radius: 100%;
+        box-shadow: 0 0 0 5px #fe5f55;
+        transform: rotate(-45deg);
+        z-index: -1;
+    }
+    div:nth-child(2) {
+        left: 20;
+        top: -140;
+    }
+    div:nth-child(3) {
+        left: 100;
+        top: -160;
+        transform: rotate(45deg);
+    }
+    div::after,
+    div::before {
+        content: "";
+        position: absolute;
+    }
+    div:nth-child(1)::after {
+        width: 150;
+        height: 100;
+        background: #a64942;
+        top: 70;
+        left: -10;
+        border-radius: 85px 85px 70px 70px;
+    }
+    div:nth-child(1)::before {
+        width: 10;
+        height: 10;
+        background: #000;
+        top: 50;
+        left: 25;
+        border-radius: 50%;
+        -webkit-box-reflect: right 60px;
+    }
+    p::before,
+    p::after {
+        content: "";
+        position: absolute;
+        width: 20;
+        height: 30;
+        background: #000;
+        top: 74;
+        left: 15;
+        border-radius: 50%;
+        z-index: 1;
+        top: 90;
+    }
+    p::after {
+        left: 15;
+        transform: rotate(45deg);
+    }
+    p::before {
+        left: 95;
+        transform: rotate(-45deg);
+    }
+</style>

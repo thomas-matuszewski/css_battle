@@ -1,0 +1,31 @@
+<div></div>
+<style>
+  body
+  {
+    background:#998235;
+    margin:150 125
+  }
+  div{
+    position:relative;
+    width:150;
+    height:75;
+    background: linear-gradient(90deg, #191919 25px, #EFF33C 25px, #EFF33C 35px, #191919 35px, #191919 35px, #191919 60px, #EFF33C 60px, #EFF33C 60px, #EFF33C 70px, #191919 70px, #191919 95px, #EFF33C 95px );
+    border-radius:50px
+  }div::after,div::before{content:'';
+    position:absolute;}
+  div::after{
+    width:15;
+    height:15;
+    background:#191919;
+    border-radius:50%;
+    left:115;
+    top:20
+  }
+  div::before{
+    width:75;
+    height:75;
+    border-radius:100%100%0%100%;
+    background:#fff;
+    top:-75;
+    z-index:-1;
+    -webkit-box-reflect:right

@@ -1,0 +1,44 @@
+<div><p></p></div>
+<style>
+    body {
+        background: #191919;
+        margin: 110 80;
+    }
+    div {
+        position: relative;
+        width: 240;
+        height: 80;
+        top: -10;
+        background: #f2ad43;
+    }
+    div::after,
+    div::before {
+        content: "";
+        position: absolute;
+    }
+    div::before {
+        width: 80;
+        height: 30;
+        background: #191919;
+        left: 80;
+        border-radius: 0 0 10px 10px;
+    }
+    div::after {
+        width: 20;
+        height: 20;
+        background: #f2ad43;
+        left: 110;
+        top: 10;
+    }
+    p {
+        position: absolute;
+        width: 10;
+        height: 10;
+        background: #f2ad43;
+        border-radius: 50%;
+        left: 105;
+        top: -11;
+        -webkit-box-reflect: right 10px;
+        box-shadow: -115px 40px 0 45px#191919, -49px 144.5px 0 90px#191919;
+    }
+</style>

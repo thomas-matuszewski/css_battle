@@ -1,0 +1,44 @@
+<div>
+    <p></p>
+    <p></p>
+    <p></p>
+</div>
+<style>
+    body {
+        background: #293462;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div {
+        width: 200px;
+        height: 200px;
+        background: #fe5f55;
+        border-radius: 150px 150px 75px 75px;
+        position: relative;
+        overflow: hidden;
+    }
+    p {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background: #fff1c1;
+        border-radius: 50%;
+        bottom: 34px;
+    }
+    p:nth-child(1) {
+        left: 20px;
+        box-shadow: 0 -120px 0 20px #fff1c1;
+    }
+    p:nth-child(2) {
+        right: 20px;
+        box-shadow: 0 -120px 0 20px #fff1c1;
+    }
+    p:nth-child(3) {
+        bottom: 4px;
+        width: 40px;
+        height: 10px;
+        left: 80px;
+        border-radius: 20px;
+    }
+</style>

@@ -1,0 +1,46 @@
+<div></div>
+<style>
+    body {
+        background: #1a4341;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div {
+        width: 200px;
+        height: 180px;
+        background: linear-gradient(
+            to bottom,
+            #f3ac3c 20px,
+            #1a4341 10px 40px,
+            #f3ac3c 40px 60px,
+            #1a4341 60px 80px,
+            #f3ac3c 80px 100px,
+            #1a4341 100px 120px,
+            #f3ac3c 120px 140px,
+            #1a4341 140px 160px,
+            #f3ac3c 160px 180px
+        );
+        position: relative;
+    }
+    div:after {
+        content: "";
+        width: 100%;
+        height: 140%;
+        position: absolute;
+        background: #1a4341;
+        border-radius: 50%;
+        left: -75%;
+        top: -20%;
+    }
+    div:before {
+        content: "";
+        width: 100%;
+        height: 140%;
+        position: absolute;
+        background: #1a4341;
+        border-radius: 50%;
+        right: -75%;
+        top: -20%;
+    }
+</style>

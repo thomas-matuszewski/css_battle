@@ -1,0 +1,48 @@
+<div></div>
+<div></div>
+<style>
+    body {
+        background: #191919;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div {
+        position: relative;
+        width: 114;
+        height: 114;
+        background: radial-gradient(#191919 45px, #e08027 45px);
+        top: -16;
+    }
+    div:nth-child(1) {
+        border-radius: 0%50%50%;
+        left: 3;
+    }
+    div:nth-child(2) {
+        border-radius: 50%0%50%50%;
+        box-shadow: 0 0 0 10px #191919;
+        left: -3;
+    }
+    div::after {
+        content: "";
+        position: absolute;
+        width: 12;
+        height: 12;
+        background: #191919;
+        border: 9px solid #e08027;
+        border-radius: 50%;
+        left: 42;
+        top: 48;
+        clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+    }
+    div:nth-child(1)::before {
+        content: "";
+        position: absolute;
+        width: 50;
+        height: 50;
+        background: #e08027;
+        top: 85;
+        left: 86;
+        transform: rotate(45deg);
+    }
+</style>

@@ -1,0 +1,28 @@
+<div></div>
+<style>
+    body {
+        background: #19191a;
+        margin: 50 125;
+    }
+    div {
+        width: 150;
+        height: 150;
+        border-radius: 50%;
+        position: relative;
+        background: conic-gradient(
+            #4f77ff 180deg,
+            #9ad5ff 180deg 270deg,
+            #4f77ff 270deg
+        );
+    }
+    div::after {
+        content: "";
+        position: absolute;
+        bottom: -50;
+        left: 0;
+        width: 75;
+        height: 130;
+        background: #f9e492;
+        z-index: -1;
+    }
+</style>

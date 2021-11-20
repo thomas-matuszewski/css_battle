@@ -1,0 +1,84 @@
+<div id="a"></div>
+<div id="b"></div>
+<div id="b"></div>
+<div id="c"></div>
+<div id="d"></div>
+<div id="e"></div>
+<style>
+    body {
+        background: #191919;
+        margin: 204 100;
+    }
+    #a {
+        width: 200;
+        height: 10;
+        background: #5dbcf9;
+        position: relative;
+        box-shadow: 0 0 0 10px #191919;
+        z-index: 2;
+    }
+    #a::after {
+        content: "";
+        position: absolute;
+        width: 110;
+        height: 10;
+        top: 20;
+        left: 45;
+        background: #5dbcf9;
+        box-shadow: 0 0 0 10px #191919;
+    }
+    #b {
+        position: relative;
+        width: 60;
+        height: 70;
+        background: #191919;
+        box-shadow: 0 0 0 10px #5dbcf9;
+    }
+    #b:nth-child(2) {
+        top: -66;
+        left: 51;
+        transform: rotate(60deg);
+    }
+    #b:nth-child(3) {
+        top: -136;
+        left: 89;
+        transform: rotate(-60deg);
+    }
+    #c {
+        position: absolute;
+        width: 50;
+        height: 70;
+        background: #191919;
+        top: 140;
+        left: 160;
+        transform: rotate(60deg);
+    }
+    #d {
+        position: absolute;
+        width: 10;
+        height: 80;
+        background: #5dbcf9;
+        top: 130;
+        left: 195;
+    }
+    #e {
+        position: absolute;
+        width: 80;
+        height: 45;
+        background: #191919;
+        top: 106;
+        left: 160;
+        z-index: -1;
+        box-shadow: 0 0 0 10px#5DBCF9;
+    }
+    #e::after {
+        content: "";
+        position: absolute;
+        width: 30;
+        height: 20;
+        background: #191919;
+        box-shadow: 0 0 0 10px#5DBCF9;
+        top: -30;
+        left: 25;
+    }
+</style>

@@ -1,0 +1,37 @@
+<div></div>
+<div></div>
+<div></div>
+<style>
+    body {
+        background: #1a4341;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div {
+        position: absolute;
+        border-radius: 50%;
+    }
+    div:nth-child(1) {
+        width: 150px;
+        height: 150px;
+        background: conic-gradient(
+            #f3ac3c 0deg 90deg,
+            #1a4341 90deg 180deg,
+            #998235 180deg 360deg
+        );
+        z-index: 2;
+    }
+    div:nth-child(2) {
+        width: 200px;
+        height: 200px;
+        background: conic-gradient(#f3ac3c 0deg 90deg, #1a4341 90deg 360deg);
+    }
+    div:nth-child(3) {
+        width: 30px;
+        height: 30px;
+        background: #0b2429;
+        z-index: 5;
+        transform: translate(-30px, -30px);
+    }
+</style>

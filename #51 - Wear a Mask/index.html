@@ -1,0 +1,50 @@
+<div><p i></p></div>
+<style>
+    body {
+        background: #293462;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div {
+        width: 150;
+        height: 100;
+        background: #fff1c1;
+        border-radius: 0 0 50px 50px;
+        position: relative;
+    }
+    div::after {
+        content: "";
+        position: absolute;
+        top: 10;
+        left: -50;
+        width: 250;
+        height: 40;
+        background: #293462;
+        border-radius: 20px;
+        z-index: -1;
+        box-shadow: 0 0 0 10px#FFF1C1;
+    }
+    p {
+        position: absolute;
+    }
+    [i] {
+        top: 4;
+        left: 20;
+        background: #fe5f55;
+        width: 40;
+        height: 10;
+        border-radius: 5px;
+        box-shadow: 0 20px 0#FE5F55;
+    }
+    [i]::after {
+        content: "";
+        position: absolute;
+        top: 20;
+        left: 70;
+        width: 40;
+        height: 40;
+        border-radius: 50%;
+        background: #fe5f55;
+    }
+</style>

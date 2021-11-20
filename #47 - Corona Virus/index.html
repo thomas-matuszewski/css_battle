@@ -1,0 +1,52 @@
+<div>
+    <p></p>
+    <p b></p>
+    <p c></p>
+</div>
+<style>
+    body {
+        background: #1a4341;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div {
+        width: 100px;
+        height: 100px;
+        background: #f3ac3c;
+        border-radius: 50%;
+        position: relative;
+    }
+    div::before {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 20px;
+        left: 20px;
+        background: #998235;
+        border-radius: 50%;
+        box-shadow: 40px -10px 0 -10px#998235, 15px 40px 0 -5px#998235;
+    }
+    p {
+        position: absolute;
+        width: 10px;
+        height: 180px;
+        background: #f3ac3c;
+        border-radius: 10px;
+        top: -66px;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: -1;
+    }
+    [b] {
+        transform: rotate(-60deg);
+        top: -51px;
+        left: 54px;
+    }
+    [c] {
+        transform: rotate(-120deg);
+        top: -61px;
+        left: 54px;
+    }
+</style>

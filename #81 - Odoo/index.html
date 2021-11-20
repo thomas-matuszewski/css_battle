@@ -1,0 +1,41 @@
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<style>
+    body {
+        background: #191919;
+    }
+    div {
+        position: absolute;
+        top: 122;
+        left: 37;
+        width: 80;
+        height: 80;
+        background: radial-gradient(#191919 35%, #714b67 35%);
+        border-radius: 50%;
+    }
+    div:nth-child(2) {
+        left: 119;
+        background: radial-gradient(#191919 35%, #8f8f8f 35%);
+    }
+    div:nth-child(2)::after {
+        position: absolute;
+        content: "";
+        width: 20;
+        height: 60;
+        background: #8f8f8f;
+        border-radius: 10px;
+        left: 60;
+        top: -20;
+    }
+
+    div:nth-child(3) {
+        left: 201;
+        background: radial-gradient(#191919 35%, #8f8f8f 35%);
+    }
+    div:nth-child(4) {
+        left: 283;
+        background: radial-gradient(#191919 35%, #8f8f8f 35%);
+    }
+</style>

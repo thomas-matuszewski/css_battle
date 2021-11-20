@@ -1,0 +1,42 @@
+<div><p></p></div>
+<style>
+    body {
+        background: #191919;
+        margin: 50 125;
+    }
+    div {
+        position: relative;
+        width: 150;
+        height: 200;
+        background: #f2ad43;
+        border-radius: 80px 80px 22px 22px;
+        overflow: hidden;
+    }
+    div::before,
+    div::after {
+        content: "";
+        position: absolute;
+        width: 200;
+        height: 200;
+        border-radius: 50%;
+        bottom: -100;
+        z-index: 1;
+    }
+    div::before {
+        background: #e08027;
+        left: -100;
+    }
+    div::after {
+        background: #824b20;
+        left: 50;
+    }
+    p {
+        position: absolute;
+        width: 63;
+        height: 70;
+        background: #fff58f;
+        border-radius: 50%;
+        top: 74;
+        left: 43;
+    }
+</style>

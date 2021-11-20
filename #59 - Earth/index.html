@@ -1,0 +1,46 @@
+<div><p></p></div>
+<style>
+    body {
+        background: #191919;
+        margin: 75 125;
+    }
+    div {
+        position: relative;
+        width: 150;
+        height: 150;
+        border-radius: 50%;
+        background: #4f77ff;
+    }
+    div::after {
+        content: "";
+        position: absolute;
+        width: 190;
+        height: 190;
+        border-radius: 50%;
+        background: none;
+        left: 40;
+        top: -20;
+        box-shadow: 0 0 0 10px #191919;
+        -webkit-box-reflect: left -70px;
+    }
+    p,
+    p::after,
+    p::before {
+        position: absolute;
+        width: 150;
+        height: 10;
+        background: #191919;
+    }
+    p {
+        top: 14;
+        -webkit-box-reflect: above -90px;
+    }
+    p::after {
+        content: "";
+        top: 40;
+    }
+    p::before {
+        content: "";
+        transform: rotate(90deg);
+    }
+</style>

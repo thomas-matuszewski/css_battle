@@ -1,0 +1,49 @@
+<div><p></p></div>
+<style>
+    body {
+        background: #191919;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div {
+        position: relative;
+        left: 25;
+        width: 80;
+        height: 80;
+        background: #191919;
+        border-radius: 50%;
+        box-shadow: 0 0 0 10px#5DBCF9, 0 0 0 25px#191919, 0 0 0 35px#5DBCF9,
+            0 0 0 50px#191919, 0 0 0 60px#5DBCF9;
+    }
+    p {
+        position: absolute;
+        width: 200;
+        height: 300;
+        background: #191919;
+        top: -150;
+        left: -160;
+    }
+    p::after {
+        content: "";
+        position: absolute;
+        width: 80;
+        height: 50;
+        background: #5dbcf9;
+        top: 149;
+        left: 50;
+        border-radius: 10px;
+    }
+    p::before {
+        content: "";
+        position: absolute;
+        height: 0;
+        width: 0;
+        height: 0;
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid transparent;
+        border-right: 100px solid #5dbcf9;
+        top: 74;
+        left: 75;
+    }
+</style>

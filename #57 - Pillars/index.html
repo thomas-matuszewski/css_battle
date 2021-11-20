@@ -1,0 +1,32 @@
+<div></div>
+<style>
+    body {
+        background: #191919;
+        margin: 95 145;
+    }
+    div {
+        position: relative;
+        width: 110;
+        height: 110;
+        background: #4f77ff;
+    }
+    div::after,
+    div::before {
+        content: "";
+        position: absolute;
+        width: 30;
+        height: 30;
+        border-radius: 50%;
+        background: #4f77ff;
+        left: -20;
+        -webkit-box-reflect: right 90px;
+    }
+    div::after {
+        top: -20;
+        box-shadow: 7.5px 7.5px 0 7.5px#F9E492, 15px 15px 0 15px#191919;
+    }
+    div::before {
+        top: 100;
+        box-shadow: 7.5px -7.5px 0 7.5px#F9E492, 15px -15px 0 15px#191919;
+    }
+</style>

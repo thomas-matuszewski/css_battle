@@ -1,0 +1,50 @@
+<div id="a"><p></p></div>
+<div id="a"></div>
+<div id="b"></div>
+<div id="b"></div>
+<div id="c"></div>
+<div id="c"></div>
+<div id="c"></div>
+<style>
+    body {
+        background: #191919;
+        display: flex;
+        margin: 75 100;
+    }
+    #a {
+        position: relative;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 50px solid #4f77ff;
+    }
+    #b {
+        position: relative;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 50px solid #191919;
+        top: 50;
+        left: -200;
+    }
+    #c {
+        position: relative;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 50px solid #191919;
+        top: 100;
+        left: -450;
+    }
+    p {
+        position: relative;
+        width: 200;
+        height: 99;
+        background: #4f77ff;
+        top: -15;
+        left: -50;
+    }
+</style>

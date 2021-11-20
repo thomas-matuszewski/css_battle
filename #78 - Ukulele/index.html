@@ -1,0 +1,56 @@
+<div></div>
+<div></div>
+<style>
+    * {
+        background: #f3ac3c;
+        margin: 65 51q;
+    }
+    div:nth-child(1) {
+        position: relative;
+        width: 40;
+        height: 40;
+        background: #1a4341;
+        border-radius: 50%;
+        box-shadow: 0 0 0 5q#F3AC3C, 0 0 0 32q#998235, -60px 0 0 40px#998235;
+        z-index: 2;
+    }
+    div::after,
+    div::before {
+        position: absolute;
+        content: "";
+    }
+    div:nth-child(1)::after {
+        width: 10;
+        height: 40;
+        background: #1a4341;
+        left: -60;
+        border-radius: 50px;
+    }
+    div:nth-child(2) {
+        position: absolute;
+        width: 120;
+        height: 20;
+        background: #1a4341;
+        top: 75;
+        left: 150;
+        z-index: 1;
+    }
+    div:nth-child(2)::after {
+        width: 40;
+        height: 30;
+        background: #998235;
+        left: 117;
+        top: -5;
+        border-radius: 10px;
+    }
+    div:nth-child(2)::before {
+        width: 20;
+        height: 4;
+        background: #1a4341;
+        z-index: 1;
+        left: 127;
+        top: 3;
+        border-radius: 10px;
+        -webkit-box-reflect: below 6px;
+    }
+</style>
