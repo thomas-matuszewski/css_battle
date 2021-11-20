@@ -90,6 +90,6 @@
 <a href="https://github.com/thomas-matuszewski/css_battle/blob/master/%2389%20-%20Summit/index.html">#89 - Summit</a><br>
 <a href="https://github.com/thomas-matuszewski/css_battle/blob/master/%2390%20-%20Eclipse/index.html">#90 - Eclipse</a><br>
 <a href="https://github.com/thomas-matuszewski/css_battle/blob/master/%2391%20-%20Reflection/index.html">#91 - Reflection</a><br>
-<a href=https://github.com/thomas-matuszewski/css_battle/blob/master/%2392%20-%20Squeeze/index.html">#92 - Squeeze</a><br>
+<a href="https://github.com/thomas-matuszewski/css_battle/blob/master/%2392%20-%20Squeeze/index.html">#92 - Squeeze</a><br>
 <a href="https://github.com/thomas-matuszewski/css_battle/blob/master/%2393%20-%20Great%20Wall/index.html">#93 - Great Wall</a><br>
 <a href="https://github.com/thomas-matuszewski/css_battle/blob/master/%2394%20-%20Ripples/index.html">#94 - Ripples</a><br>
