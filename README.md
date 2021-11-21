@@ -94,3 +94,4 @@
 <a href="https://github.com/thomas-matuszewski/css_battle/blob/master/%2393%20-%20Great%20Wall/index.html">#93 - Great Wall</a><br>
 <a href="https://github.com/thomas-matuszewski/css_battle/blob/master/%2394%20-%20Ripples/index.html">#94 - Ripples</a><br>
 <a href="https://github.com/thomas-matuszewski/css_battle/blob/master/%2395%20-%20Pokeball/index.html">#95 - Pokeball</a><br>
+<a href="https://github.com/thomas-matuszewski/css_battle/blob/master/%2395%20-%20Pokeball/index.html">#96 - Mandala</a><br>
